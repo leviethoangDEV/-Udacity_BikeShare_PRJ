@@ -33,7 +33,7 @@ def get_filters():
     days = ['saturday', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'all']
     day = input('Please enter the day by letters ').lower()
     while day not in days:
-        print('Please enter a valid day')
+        print('Please enter a valid day(example: sunday,...)')
         day = input('Please enter the day by letters ').lower()
 
     print('-'*100)
